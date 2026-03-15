@@ -1,0 +1,75 @@
+WAP to chech it a number entered by the user is odd o even.
+
+num = int(input("enter number:"))
+rem = num % 2
+
+if (rem == 0):
+    print("EVEN")
+else:
+    print("ODD")
+
+#enter number:14
+EVEN
+#enter number:27
+ODD
+#enter number:8
+EVEN
+#enter number:19
+ODD
+------------------------------------------------------------------------------------------------------------------------------------------
+num = int(input("enter number:"))
+
+if (num % 2 == 0):
+    print("EVEN")
+else:
+    print("ODD")
+
+#enter number:16
+EVEN
+
+-------------------------------------------------------------------------------------------------------------------------------------
+WAP TO FIND THE GREATEST OF 3 NUMBERS ENTER BY THE USER
+
+a = int(input("enter first number: "))
+b = int(input("enter second number: "))
+c = int(input("enter third number: "))
+
+if (a >= b and a >= c):
+    print("first number is largest", a)
+
+elif (b >= a and b >= c):
+    print("second number is largest", b)
+
+else:
+    print("third number is largest", c)
+
+#enter first number: 15
+#enter second number: 33
+#enter third number: 20
+#second number is largest 33
+
+------------------------------------------------------------------------------------------------------------------------------------------
+WAP to check if a number is a multiple of 7 or not.
+num = int(input("Enter a number: "))
+
+if num % 7 == 0:
+    print("Number is a multiple of 7")
+else:
+    print("Number is not a multiple of 7")
+
+#Enter a number: 25
+#Number is not a multiple of 7
+
+-----------------------------------------------------
+num = int(input("Enter a number: "))
+
+if num % 5 == 0:
+    print("Number is a multiple of 7")
+else:
+    print("Number is not a multiple of 7")
+#Enter a number: 25
+#Number is a multiple of 7
+
+
+    
+    
